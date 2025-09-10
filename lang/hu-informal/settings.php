@@ -5,12 +5,14 @@
  * 
  * @author Marina Vladi <deldadam@gmail.com>
  * @author DelD <deldadam@gmail.com>
+ * @author Szíjártó Levente Pál <szijartoleventepal@gmail.com>
  */
-$lang['noPrefix']              = 'Mely (vesszővel elválasztott) osztályneveknek ne legyen "wrap_" előtagja?';
-$lang['restrictedClasses']     = 'csatoló korlátozása ezekre a (vesszővel elválasztott) osztályokra';
-$lang['restrictionType']       = 'korlátozás típusa, megadja, hogy a fenti osztályokat figyelembe vegye vagy se a csatoló';
-$lang['restrictionType_o_0']   = 'minden osztály engedélyezése, kivéve a fentieket';
-$lang['restrictionType_o_1']   = 'csak a fenti osztályok engedélyezése';
-$lang['syntaxDiv']             = 'Milyen szintaxist használjunk a blokktípusú dobozokhoz az eszközsorban?';
-$lang['syntaxSpan']            = 'Milyen szintaxist használjunk a soron belüli (inline) dobozokhoz az eszközsorban?';
-$lang['darkTpl']               = 'Optimalizáljam a színeket sötét sablonokhoz?';
+$lang['noPrefix']              = 'Mely (vesszővel elválasztott) osztályneveknek ne legyen „wrap_” előtagja? (A * és ? helyettesítő karakterek támogatottak.)';
+$lang['restrictedClasses']     = 'Bővítmény korlátozása az alábbi (vesszővel elválasztott) osztályokra. (A * és ? helyettesítő karakterek támogatottak.)';
+$lang['restrictionType']       = 'Korlátozás: a fenti osztályok figyelembe vételének típusa';
+  $lang['restrictionType_o_0']   = 'minden osztály engedélyezése, kivéve a fentieket';
+  $lang['restrictionType_o_1']   = 'csak a fenti osztályok engedélyezése';
+$lang['syntaxDiv']             = 'Az eszköztár blokktípusú elemeinek szintaxisának megadása';
+$lang['syntaxSpan']            = 'Az eszköztár soron belüli (inline) elemeinek szintaxisának megadása';
+$lang['darkTpl']               = 'Legyenek a színek sötét sablonokhoz is optimalizálva?';
+$lang['emulatedHeadlines'] = 'Használjon emulált címsorokat (elavult)';
